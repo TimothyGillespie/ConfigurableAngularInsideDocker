@@ -1,0 +1,16 @@
+# for the best experience and avoid common issues run with:
+# docker-compose up --build --force-recreate
+version: "3.8"
+services:
+  angular-app:
+    build:
+      context: ../
+      dockerfile: container-with-validation/Dockerfile
+    environment:
+#      - "A_NUMBER=3"
+      - "A_STRING=I'm new"
+      - "INSIDE_THE_OBJECT=I'm also new"
+      - "AN_ARRAY_FIRST=new first"
+      - "AN_ARRAY_SECOND=new second"
+    ports:
+      - "127.0.0.1:8080:80"
