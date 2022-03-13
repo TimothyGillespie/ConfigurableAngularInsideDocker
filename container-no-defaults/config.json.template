@@ -1,0 +1,11 @@
+{
+  "aNumber": ${A_NUMBER},
+  "aString": "${A_STRING}",
+  "anObject": {
+    "insideTheObject": "${INSIDE_THE_OBJECT}"
+  },
+  "anArray": [
+    "${AN_ARRAY_FIRST}",
+    "${AN_ARRAY_SECOND}"
+  ]
+}

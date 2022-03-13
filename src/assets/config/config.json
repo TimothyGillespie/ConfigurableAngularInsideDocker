@@ -1,0 +1,11 @@
+{
+  "aNumber": 1,
+  "aString": "Hello World",
+  "anObject": {
+    "insideTheObject": "I from the inside"
+  },
+  "anArray": [
+    "first element",
+    "second element"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "aNumber": ${A_NUMBER:-12},
+  "aString": "${A_STRING:-default string}",
+  "anObject": {
+    "insideTheObject": "${INSIDE_THE_OBJECT:- default inside object}"
+  },
+  "anArray": [
+    "${AN_ARRAY_FIRST:-default array first}",
+    "${AN_ARRAY_SECOND:-default array second  }"
+  ]
+}
